@@ -57,10 +57,20 @@
 
 TSRF 框架由三个核心模块组成：数据生成、特征筛选与解释、故障分类。
 
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/3d5ff66c-9dd0-490b-96e0-0c51f6993d75" width="80%" />
+  <p><em>图1 基于 SHAP 的参数筛选流程</em></p>
+</div>
+
 ### 1. 一维热力学建模与故障仿真 (Thermodynamic Modeling)
 
-我们构建了一个高精度的船舶柴油机一维热力学模型（1D Thermodynamic Model），并通过实验数据进行了严格校准。基于该模型，我们定义了物理参数微调策略，以模拟以下 5 种典型故障：
+构建了一个高精度的船舶柴油机一维热力学模型（1D Thermodynamic Model），如图2所示，并通过实验数据进行了严格校准。
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/cfee6fe5-ab4a-4fb5-aa43-cf26e9a6a093" width="80%" />
+  <p><em>图2 船用柴油机热动力学模型方案</em></p>
+</div>
 
+基于该模型，定义了物理参数微调策略，以模拟以下 5 种典型故障：
 | 故障代码 | 故障类型 (Fault Type) | 物理参数微调策略 (Parameter Tuning Strategy) | 物理机制简述 |
 | :--- | :--- | :--- | :--- |
 | **F0** | 正常状态 (Normal) | N/A | 基准状态 |
