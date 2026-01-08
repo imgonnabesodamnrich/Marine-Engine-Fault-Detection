@@ -24,7 +24,7 @@
 
 ---
 
-## 🔍 项目背景 (Background)
+## 🔍 研究背景 (Background)
 
 ### 1. 关键问题 (The Criticality)
 柴油机是船舶推进系统的关键部件,其内部结构复杂、部件众多。其中，**燃烧室组件（Combustion Chamber Components）**——包括气缸盖、气缸套、活塞等——对柴油机的功能至关重要。
