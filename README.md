@@ -13,7 +13,7 @@
 ---
 
 ## 📑 目录 (Table of Contents)
-- [项目背景 (Background)](#-项目背景-background)
+- [研究背景 (Background)](#-研究背景-background)
 - [核心方法论 (Methodology)](#-核心方法论-methodology)
   - [1. 一维热力学建模与故障仿真](#1-一维热力学建模与故障仿真-thermodynamic-modeling)
   - [2. 基于 SHAP 的特征工程](#2-基于-shap-的特征工程-shap-analysis)
