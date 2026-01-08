@@ -55,7 +55,7 @@
 
 ## 🛠 核心方法论 (Methodology)
 
-TSRF 框架由三个核心模块组成：数据生成、特征筛选与解释、故障分类。
+如图1所示，TSRF 框架由三个核心模块组成：数据生成、特征筛选与解释、故障分类。
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/3d5ff66c-9dd0-490b-96e0-0c51f6993d75" width="80%" />
@@ -86,7 +86,12 @@ TSRF 框架由三个核心模块组成：数据生成、特征筛选与解释、
 
 面对仿真输出的众多热力学参数，引入了 **SHAP (SHapley Additive exPlanations)** 值来定量评估每个参数对故障诊断的边际贡献。
 
-*   **Tree SHAP 算法**：相比于传统的特征选择方法（如 RFE、卡方检验），SHAP 能够捕捉特征间的非线性交互作用。
+*   **Tree SHAP 算法**：相比于传统的特征选择方法（如 RFE、卡方检验），SHAP 能够捕捉特征间的非线性交互作用，如图3所示。
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/d8f0503a-4342-41df-8536-09a36673c249" width="80%" />
+  <p><em>图3 SHAP 与 Tree SHAP 对比</em></p>
+</div>
+
 *   **关键特征发现**：研究发现，**涡轮后排气温度 (P14)**、**漏气热流 (P06)** 和 **气缸套热流 (P05)** 是区分不同故障模式的最关键指标。
 
 ### 3. 随机森林诊断模型 (Random Forest)
