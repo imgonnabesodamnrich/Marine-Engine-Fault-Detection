@@ -58,7 +58,7 @@
 如图1所示，TSRF 框架由三个核心模块组成：数据生成、特征筛选与解释、故障分类。
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/3d5ff66c-9dd0-490b-96e0-0c51f6993d75" width="80%" />
+  <img src="https://github.com/user-attachments/assets/b816c11c-e2f3-495e-8007-81ee097a5899" width="80%" />
   <p><em>图1 基于 SHAP 的参数筛选流程</em></p>
 </div>
 
