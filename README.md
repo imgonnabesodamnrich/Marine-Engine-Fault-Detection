@@ -19,7 +19,7 @@
   - [2. 基于 SHAP 的特征工程](#2-基于-shap-的特征工程-shap-analysis)
   - [3. 随机森林诊断模型](#3-随机森林诊断模型-random-forest)
 - [Why SHAP + RF?](#-why-shap--rf)
-  - [1. 什么是 SHAP？](#1-1-什么是-SHAP？)
+  - [1. 什么是 SHAP？](#1-1-什么是-SHAP)
   - [2. 基于 SHAP 的特征工程](#2-基于-shap-的特征工程-shap-analysis)
   - [3. 随机森林诊断模型](#3-随机森林诊断模型-random-forest)
 - [实验结果与分析 (Results)](#-实验结果与分析-results)
