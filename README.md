@@ -158,6 +158,28 @@
   <p><em>图4 基于 SHAP 值的活塞环磨损 (F4) 故障分析：(a) 瀑布图；(b) 蜂群图；(c) 交互图；(d) 依赖图</em></p>
 </div>
 
+<details>
+<summary>🔻 点击查看完整热力学参数列表 (Table 6)</summary>
+
+| 编号 | 参数名称 | 单位 |
+| :--- | :--- | :--- |
+| P01 | 缸内压力 (Cylinder Pressure) | Pa |
+| P02 | 缸内温度 (Cylinder Temperature) | K |
+| P03 | 活塞壁面热流 (Piston Wall Heat Flow) | J/deg |
+| P04 | 气缸盖壁面热流 (Head Wall Heat Flow) | J/deg |
+| P05 | 气缸套壁面热流 (Liner Wall Heat Flow) | J/deg |
+| P06 | 漏气热流 (Blow-By Heat Flow) | J/deg |
+| P07 | 漏气质量流量 (Blow-By Mass Flow) | Kg/s |
+| P08 | 涡轮功率 (Turbine Power) | J/s |
+| P09 | 排气压力 (Pressure of Exhaust) | Pa |
+| P10 | 排气温度 (Temperature of Exhaust) | K |
+| P11 | 涡轮前排气压力 (Pressure before Turbo) | Pa |
+| P12 | 涡轮前排气温度 (Temp. before Turbo) | K |
+| P13 | 涡轮后排气压力 (Pressure after Turbo) | Pa |
+| P14 | 涡轮后排气温度 (Temp. after Turbo) | K |
+
+</details>
+
 1.  **全局视角 (Global Interpretation)**：
     SHAP Summary Plot 显示，对于 F4 故障，**漏气相关参数 (Blow-by)** 的权重显著上升，这与物理事实高度一致。
 
