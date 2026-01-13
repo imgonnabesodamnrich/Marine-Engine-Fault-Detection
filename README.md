@@ -208,3 +208,5 @@
   doi = {10.1016/j.measurement.2025.117252},
   publisher = {Elsevier}
 }
+```
+👉 完整资源包（包含论文、代码及数据）：**https://ts-rf.github.io/zh-CN/**
