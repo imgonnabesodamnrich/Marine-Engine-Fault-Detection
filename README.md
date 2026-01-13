@@ -1,4 +1,4 @@
-# 每日论文笔记1 —— TSRF: Thermodynamic Simulation-assisted Random Forest
+# 每日论文笔记1 —— TSRF: Thermodynamic Simulation-assisted Random Forest（可解释性故障诊断）
 
 > **An Explainable Fault Diagnosis Framework for Marine Diesel Engines**  
 > 
