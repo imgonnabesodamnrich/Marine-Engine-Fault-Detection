@@ -159,7 +159,7 @@
 </div>
 
 <details>
-<summary>🔻 点击查看完整热力学参数列表 (Table 6)</summary>
+<summary>🔻 点击查看完整热力学参数列表 </summary>
 
 | 编号 | 参数名称 | 单位 |
 | :--- | :--- | :--- |
