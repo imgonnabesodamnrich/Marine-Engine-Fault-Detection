@@ -151,7 +151,7 @@
 
 ## 💡 案例研究 (Case Study)
 
-为了展示模型的可解释性，以 **活塞环磨损 (F4)** 为例进行深度解析：
+为了展示模型的可解释性，以 **活塞环磨损 (F4)** 为例进行深度分析，如图4所示：
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/251899ec-aed6-4161-9958-aab7a55cc108" width="80%" />
