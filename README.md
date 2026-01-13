@@ -14,7 +14,7 @@
 
 ## 📑 目录 (Table of Contents)
 - [研究背景 (Background)](#-研究背景-background)
-- [核心方法论 (Methodology)](#-核心方法论-methodology)
+- [热力学仿真辅助随机森林的核心方法论 (Methodology)](#-热力学仿真辅助随机森林的核心方法论-methodology)
   - [1. 一维热力学建模与故障仿真](#1-一维热力学建模与故障仿真-thermodynamic-modeling)
   - [2. 基于 SHAP 的特征工程](#2-基于-shap-的特征工程-shap-analysis)
   - [3. 随机森林诊断模型](#3-随机森林诊断模型-random-forest)
@@ -57,7 +57,7 @@
 
 ---
 
-## 🛠 核心方法论 (Methodology)
+## 🛠 热力学仿真辅助随机森林的核心方法论 (Methodology)
 
 如图1所示，TSRF 框架由三个核心模块组成：数据生成、特征筛选与解释、故障分类。
 
