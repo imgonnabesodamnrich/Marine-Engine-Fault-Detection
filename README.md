@@ -153,11 +153,16 @@
 
 为了展示模型的可解释性，以 **活塞环磨损 (F4)** 为例进行深度解析：
 
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/251899ec-aed6-4161-9958-aab7a55cc108" width="80%" />
+  <p><em>图4 基于 SHAP 值的活塞环磨损 (F4) 故障分析：(a) 瀑布图；(b) 蜂群图；(c) 交互图；(d) 依赖图</em></p>
+</div>
+
 1.  **全局视角 (Global Interpretation)**：
     SHAP Summary Plot 显示，对于 F4 故障，**漏气相关参数 (Blow-by)** 的权重显著上升，这与物理事实高度一致。
 
 2.  **局部视角 (Local Interpretation)**：
-    对于某个被判定为 F4 的样本，SHAP Waterfall Plot 揭示了具体的决策路径：
+    对于某个被判定为 F4 的样本，SHAP 瀑布图揭示了具体的决策路径：
     *   **P06 (漏气热流) = 1.641**（显著高于正常值） -> **正向贡献**
     *   **P14 (涡轮后排温)** 出现异常波动 -> **正向贡献**
     
